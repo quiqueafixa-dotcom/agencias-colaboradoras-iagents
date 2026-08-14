@@ -184,17 +184,15 @@
     </div>
 
     <!-- Formulario oficial embebido de GoHighLevel. Carga diferida hasta que se
-         concede la categoria "Funcionales" del consentimiento (mismo patron que agencias/clinicas/funerarias).
-         PENDIENTE: sustituir data-src / data-form-id / id del iframe por el formId real
-         una vez creado en GHL ("AGENCIAS COLABORADORAS - iAgents Digital"). -->
+         concede la categoria "Funcionales" del consentimiento (mismo patron que agencias/clinicas/funerarias). -->
     <div id="ghlFormGate" style="position:relative; border-radius:16px; overflow:hidden; background:rgba(14,18,40,.6); border:1px solid var(--border);">
       <div id="ghlFormOverlay" style="position:absolute; inset:0; background:rgba(11,14,36,0.85); display:flex; align-items:center; justify-content:center; text-align:center; padding:2rem; z-index:5;">
         <p id="ghlFormOverlayText" style="color:#8a95bd; font-size:13px; max-width:280px; margin:0;">Cargando...</p>
       </div>
       <iframe
-        data-src="https://api.leadconnectorhq.com/widget/form/PENDIENTE_FORM_ID"
-        style="width:100%; height:762px; border:none; display:block;"
-        id="inline-PENDIENTE_FORM_ID"
+        data-src="https://api.leadconnectorhq.com/widget/form/P8SirlTI1btfJayVgpTS"
+        style="width:100%; height:679px; border:none; display:block;"
+        id="inline-P8SirlTI1btfJayVgpTS"
         data-layout="{'id':'INLINE'}"
         data-trigger-type="alwaysShow"
         data-trigger-value=""
@@ -202,11 +200,11 @@
         data-activation-value=""
         data-deactivation-type="neverDeactivate"
         data-deactivation-value=""
-        data-form-name="AGENCIAS COLABORADORAS - iAgents Digital"
-        data-height="762"
-        data-layout-iframe-id="inline-PENDIENTE_FORM_ID"
-        data-form-id="PENDIENTE_FORM_ID"
-        title="AGENCIAS COLABORADORAS - iAgents Digital">
+        data-form-name="AGENCIAS COLABORADORAS-IAGENTS DIGITAL"
+        data-height="679"
+        data-layout-iframe-id="inline-P8SirlTI1btfJayVgpTS"
+        data-form-id="P8SirlTI1btfJayVgpTS"
+        title="AGENCIAS COLABORADORAS-IAGENTS DIGITAL">
       </iframe>
     </div>
     <p class="form-note">Tus datos están seguros. Sin spam, sin permanencia.</p>
@@ -228,7 +226,7 @@
       var ghlLoaded = false;
       function loadGhlFormOnce() {
         if (ghlLoaded) return;
-        var iframe = document.getElementById('inline-PENDIENTE_FORM_ID');
+        var iframe = document.getElementById('inline-P8SirlTI1btfJayVgpTS');
         if (!iframe || !iframe.dataset.src) return;
         ghlLoaded = true;
         iframe.src = iframe.dataset.src;
